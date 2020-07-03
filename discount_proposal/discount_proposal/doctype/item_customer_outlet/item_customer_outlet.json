@@ -1,0 +1,66 @@
+{
+ "autoname": "hash",
+ "creation": "2020-06-27 11:26:54.342084",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "customer_group",
+  "ref_code",
+  "customer_address"
+ ],
+ "fields": [
+  {
+   "bold": 1,
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Customer Name",
+   "oldfieldname": "price_list_name",
+   "oldfieldtype": "Select",
+   "options": "Customer",
+   "print_width": "180px",
+   "search_index": 1,
+   "width": "180px"
+  },
+  {
+   "bold": 1,
+   "fieldname": "customer_group",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Customer Group",
+   "options": "Customer Group"
+  },
+  {
+   "fieldname": "ref_code",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "label": "Ref Code",
+   "oldfieldname": "ref_rate",
+   "oldfieldtype": "Currency",
+   "print_width": "120px",
+   "reqd": 1,
+   "search_index": 1,
+   "width": "120px"
+  },
+  {
+   "fieldname": "customer_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Address"
+  }
+ ],
+ "istable": 1,
+ "modified": "2020-06-27 12:30:54.200670",
+ "modified_by": "Administrator",
+ "module": "Discount Proposal",
+ "name": "Item Customer Outlet",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

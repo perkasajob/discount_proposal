@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include discount_proposal *.css
+recursive-include discount_proposal *.csv
+recursive-include discount_proposal *.html
+recursive-include discount_proposal *.ico
+recursive-include discount_proposal *.js
+recursive-include discount_proposal *.json
+recursive-include discount_proposal *.md
+recursive-include discount_proposal *.png
+recursive-include discount_proposal *.py
+recursive-include discount_proposal *.svg
+recursive-include discount_proposal *.txt
+recursive-exclude discount_proposal *.pyc
